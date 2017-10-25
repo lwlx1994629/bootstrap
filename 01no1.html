@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/my.css">
+    	<style>
+    		@media(min-width:768px ){
+            .logo-position{
+             	width: 120px;
+             	height: 50px;
+             	margin-top: -8px;
+             }
+    		}
+    		@media(min-width:768px ){
+           .navbar-default .navbar-nav > .active > a{
+             border-radius:3px;
+             }
+    		}
+    		@media(min-width:768px ){
+               header{
+                text-align: center;
+                color:#fff;
+                background-image: url('../img/header-bg.jpg');
+                background-attachment: scroll;
+                background-position:center center;
+                background-size:cover;   
+                background-repeat: none; 
+             }
+    		}
+    	/* 	@media(max-width:800px ){
+               header{
+               
+              background-image: url('../img/header-bg.jpg');
+               
+             }
+    		} */
+    		@media screen and (max-width: 381px) and (orientation: landscape), screen and (max-height: 641px) and (orientation: landscape){
+    			header .intro-text{
+    				padding-top: 80px;
+    				height: 100vh;
+    			}
+    		}
+    		@media(min-width:768px ){
+             header .intro-text{
+             	margin-top: 10px;
+             	height: 100vh;
+    		}
+    	}
+    	@media(min-width:768px ){
+             section{
+             	padding: 70px 0;
+             }
+    		}
+    	@media(min-width:767px ){
+            section#contact{
+            background-position:center;  
+             }
+    		}
+    	/* 	@media(min-width:768px ){
+             .logo-home-position{
+             	width: 300px;
+             	height: 150px;
+             }
+    		}
+  */
+    	</style>
+
+    </head>
+    <body  data-offset="0" data-target="#nav" data-spy="scroll">
+    <!-- 导航 -->
+       <nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header page-scroll">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand page-scroll logo-position" href="#">
+		         <img src="img/waphoo_logo_yellow.png" alt="" class='logo-position'>
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <nav id='nav'>
+		 
+		      <ul class="nav navbar-nav navbar-right">
+		      <li class='hidden active'>
+		      <a href="#page-top"></a>
+		      </li>
+		        <li><a href="#About">About</a></li>
+		        <li><a href="#Jobs">Jobs</a></li>
+		        <li><a href="#contact">Contact</a></li>
+		        <li><a href="#Waphoo">Waphoo: The Game</a></li>
+		     
+		      </ul>
+		      </nav>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+    <!--动画及文字  -->
+		<header>
+			<video autoplay loop id='bgvid'>
+				<source src='video/waphoo-test_720 (2).mp4' type='video/mp4'>
+			</video>
+			<div class='container'>
+				<div class='intro-text'>
+					<div class='intro-lead-in'>
+						<img src="img/waphoo_logo_yellow.png" alt="" class='logo-home-position'>
+					</div>
+					<div class='intro-heading'>Young and talented people developing next-gen mobile MMO game for kids</div>
+					<div class='google-play'>Get it on Google Play</div>
+				</div>
+			</div>
+
+		</header>
+
+
+	<!-- 滚动监听及缩略图 -->
+
+	    <section class='about-background' id='About'>
+	    	<div class='container'>
+	    		<div class='row'>
+	    			<div class='col-lg-12 text-center'>
+	    				<h2 class='section-heading'>About the game</h2>
+	    				<h3 class='section-subheading text-muted'>Some of the game features.</h3>
+	    			</div>
+	    		</div>
+                <div class='row text-center'>
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Awesome World</h4>
+	    				<p class='text-muted'>Welcome to our World, where there are no boundaries! Kids can play and have fun.
+	                    For many of our little friends this world will be their first experience being a part of community.
+	                    It will be a place where kids can socialize and make new friends.</p>
+	    			</div>
+
+
+
+
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Educational</h4>
+	    				<p class='text-muted'>Learn new things - our little friends can play multiple games where they can learn many many things – from what the constellations look like to some Chinese words - and all this while they have fun and look for new friends.</p>
+	    			</div>
+
+
+
+
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Modifiable Characters</h4>
+	    				<p class='text-muted'>Modify your character to look the way you like. Change the outfit, color it, get a new hair cut and many many more ways to be different everyday! Make yourself a cute little character! Dress-up nicely and decorate your place with many customizations.</p>
+	    			</div>
+
+
+
+
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Mini-games</h4>
+	    				<p class='text-muted'>While exploring the world you can go and check our mini-games. You can play on your own or you can challenge other players. Enjoy adventurous world with epic story quests, fun mini-games, crazy puzzles and competitions. </p>
+	    			</div>
+
+
+
+
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Multiplayer</h4>
+	    				<p class='text-muted'>You will be able to play with people all over the world or with your friends. Challenge them, play the games, make new friends and win! Be part of great tournaments. </p>
+	    			</div>
+
+
+
+
+	    			<div class='col-md-4'>
+	    				<span class='fa-stack fa-4x'>
+	    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+	    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+	    				</span>
+	    				<h4 class='service-heading'>Child-proof </h4>
+	    				<p class='text-muted'>Here in Waphoo we are very  heartfelt to create a place where families to enjoy and have fun in safe environments. Here kids will have their own little world where they can chat safely and have fun without any worries. </p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+
+
+	    <!-- 缩略图2 -->
+	    <section class='job-background gradient-border' id='Jobs'>
+	         <div class='container'>
+	         	<div class='row'>
+	         		<div class='col-lg-12 text-center'>
+	         			<h2 class='section-heading'>Jobs</h2>
+	         			<h3 class='section-subheading text-muted'>Do you want to work for us? Write an email!</h3>
+	         			<div class='row text-center'>
+	         			    <div class='col-md-4'>
+			    				<span class='fa-stack fa-4x'>
+			    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+			    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+			    				</span>
+			    				<h4 class='service-heading'>Game Developer</h4>
+			    				<p class='text-muted'>We are looking for motivated and talented game programmers at various experience levels - from junior to lead positions. Your focus will be in programming games from the beginning of development through the entire production cycle. You will work in tight co-operation with the game designers, product managers and the rest of the team. You are responsible of implementing and polishing the features that are needed for the game. In the senior/lead game programmer roles you also have the chance to be responsible for project management for the sub-projects in your area of competency.
+                                </p>
+                                <ul class='text-muted'>
+                                	<li>
+                                		<i>Game Programming experience on published projects</i>
+                                	</li>
+                                	<i>
+                                		<li>Proven strong C# programming skills / Unity / Android SDK / iOS or other</li>
+                                		<li>Scripting skills and spare time game projects are considered as plus</li>
+                                		<li>Passion for making games</li>
+                                	</i>
+                                	<li>
+                                		<i>Ability to work under high pressure deadlines</i>
+                                	</li>
+                                </ul>
+			    			</div>
+
+
+			    			<div class='col-md-4'>
+			    				<span class='fa-stack fa-4x'>
+			    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+			    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+			    				</span>
+			    				<h4 class='service-heading'>Game Designer</h4>
+			    				<p class='text-muted'>We are looking for a talented game designer for mobile applications. You will be primarily responsible for the adaptation of our applications and the research, design and logical development of new features for our applications and for completely new games. This position is aimed at game designers with professional experience in the mobile games sector.Your role will be to design innovative and world class mobile game features and systems. </p>
+			    				<ul class='text-muted'>
+			    					<li>
+			    						<i>Experience designing mobile games on Smartphones required</i>
+			    					</li>
+			    					<i>
+			    						<li>Experience with 3D software ( 3D studio Max, Maya )</li>
+			    						<li>Working-level command of English</li>
+			    						<li>Good technical understanding</li>
+			    						<li>Strong analytical and logical skills</li>
+			    						<li>Willingness to work intensively, both independently and in a team</li>
+			    					</i>
+			    					<li>
+			    					<i>A talent for creativity and quick, logical thought processes - plus a high level of quality awareness</i>
+			    					</li>
+			    				</ul>
+			    			</div>
+
+
+
+			    			<div class='col-md-4'>
+			    				<span class='fa-stack fa-4x'>
+			    					<i class='fa fa-circle fa-stack-2x text-primary'></i>
+			    					<i class='fa fa-globe fa-stack-1x fa-inverse'></i>
+			    				</span>
+			    				<h4 class='service-heading'>Web Developer</h4>
+			    				<p class='text-muted'>We’re looking for a young, enthusiastic candidate with passion for back-end web development and at least 2 years of experience in the area to join our web team. You will work on innovative and challenging projects of international scope with a well-established market leader in its area. We offer full-time employment, allowing for professional and personal development, and very competitive salary. You will work in a nurturing environment,stimulating creativity and personal/professional development.
+                                </p>
+                                <ul class='text-muted'>
+                                	<li>
+                                		<i>You should be comfortable with Unix systems</i>
+                                	</li>
+                                	<i>
+                                		<li>Database (MySQL, Couchbase) development</li>
+                                		<li>Fluency in one of the following languages: PHP, Python or Java is a must</li>
+                                		<li>Previous experience with Django, Spring, Symphony or a similar framework would be considered an advantage</li>
+                                	</i>
+                                	<li>
+                                		<i>The main responsibilities will be related to web applications development, so knowing REST and SOA in general is a must</i>
+                                	</li>
+                                 </ul>
+			    			  </div>
+                          </div>
+	         		  </div>
+	         	   </div>
+	            </div>
+	     </section>
+
+
+        <!-- 缩略图3 -->
+	     <section id='contact' class='contact-border'>
+	     	<div class='container'>
+	     		<div class='row'>
+	     			<div class='col-lg-12 text-center'>
+	     				<h2 class='section-heading'>Contact Us</h2>
+	     				<h3 class='section-subheading text-white'>If you are interested in our game write us an email at </h3>
+	     			</div>
+	     		</div>
+	     	</div>
+	     </section>
+
+
+	     <!-- 结尾 -->
+	     <footer>
+	     	<div class='container'>
+	     		<div class='row'>
+	     			<span class='copyright'>Copyright © Waphoo 2017</span>
+	     			<span class='privacy-policy'>Privacy Policy</span>
+	     		</div>
+	     	</div>
+	     </footer>
+
+
+
+
+
+
+    	<script src="js/jquery-1.11.1.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+  
+    </body>
+</html>		
